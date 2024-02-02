@@ -20,7 +20,7 @@ body{
 
 header, nav, aside, main, footer 
 {
-    border: 1px solid black;
+    border: 1px solid rgb(36, 5, 65);
     border-bottom: none;
     background-color: lightgrey;
 
@@ -31,7 +31,7 @@ header, nav, aside, main, footer
 header 
 {
     grid-area: header;
-    background-color: rgba(0, 0, 0, 0.944);
+    background-color: rgb(36, 5, 65);
     height: 40px;
 }
 
@@ -48,7 +48,7 @@ header .name
 nav 
 {
     grid-area: nav;
-    background-color: rgba(0, 0, 0, 0.944);
+    background-color: rgb(36, 5, 65);
 }
 
 nav a
@@ -61,7 +61,7 @@ nav a
 
 nav a:hover
 {   
-    color: rgb(167, 5, 5);
+    color: rgb(5, 224, 231);
 }
 
 #manage
@@ -74,9 +74,10 @@ nav a:hover
 aside 
 {
     grid-area: aside;
-    background-color: rgba(0, 0, 0, 0.944);
+    background-color: rgb(36, 5, 65);
     
 }
+
 
 #side-btn
 {
@@ -94,7 +95,7 @@ aside
     #side-btn
     {
         display: block;
-        background-color: rgba(0, 0, 0, 0.944);
+        background-color: rgb(36, 5, 65);
         color: white;
     }
 
@@ -132,6 +133,7 @@ aside a
 aside i
 {
     padding-left: 10px;
+    color:rgb(241, 239, 236);
 }
 /*  */
 
@@ -181,6 +183,11 @@ aside i
     padding-top: 50px;
 }
 
+#albums span
+{
+    color:white;
+}
+
 #links
 {
     display: none;
@@ -211,7 +218,7 @@ footer
 {
     grid-area: footer;
     clear: both;
-    background-color: rgba(0, 0, 0, 0.944);
+    background-color: rgb(36, 5, 65);
     position: relative;
     bottom: 0;
     
@@ -249,13 +256,13 @@ footer .name
   
 ::-webkit-scrollbar-thumb 
 {
-    background: #8c0202;
+    background: rgb(5, 224, 231);
     border-radius: 50px;
 }
   
 ::-webkit-scrollbar-thumb:hover 
 {
-    background: #c20a0a;
+    background:rgb(5, 224, 231);
 }
 
 /* login form */
